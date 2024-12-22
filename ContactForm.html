@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta charset="UTF-8"> -->
+        <link rel="stylesheet" href="./ContactForm.css">
+        <title>Contacts</title>
+    </head>
+    <body>
+        <h1>Contact me</h1>
+        <div class="container">
+            <img src="./images/contact-me-bear.gif" alt="Dancing bear wanting you to contact me!!" style="height: 185px; width: 200px;">
+            <section>
+                <h2>Fill the form!</h2>
+                <form action="/submit">
+                    <fieldset>
+                        <legend>Contact information</legend>
+                        <label for="username">  Name:</label>
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            required
+                        >
+                        <br>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input
+                            type="text"
+                            name="email"
+                            id="email"
+                            required
+                        >
+                        <br>
+                        <br>
+                        <label for="number">Number:</label>
+                        <input type="text" name="number" id="number">
+                        <br>
+                        <br>
+                        <textarea name="message" id="message"></textarea>
+                        <br>
+                        <br>
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+            <img src="./images/you-make-me-melt.gif" alt="Two toasts and the text saying you make me melt" style="height: 185px; width: 200px; float: right;">
+        </div>
+    </body>
+</html>

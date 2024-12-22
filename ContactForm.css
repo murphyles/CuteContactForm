@@ -1,0 +1,84 @@
+body {
+    background-color: bisque;
+    font-family: monospace;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: chocolate;
+}
+
+form {
+    text-align: center;
+    color: chocolate;
+}
+
+fieldset {
+    border: 2px solid lightsalmon;
+    /* Толщина, стиль и цвет рамки */
+    border-radius: 8px;
+    /* Закругленные углы */
+}
+
+section {
+    max-width: 750px;
+    margin: 30px;
+}
+
+label {
+    font-size: 16px;
+}
+
+textarea {
+    width: 50%;
+    /* Растягиваем текстовое поле */
+    height: 150px;
+    /* Задаём высоту текстового поля */
+    font-size: 16px;
+    /* Размер текста */
+    border: lightsalmon;
+}
+
+input, button {
+    width: 50%;
+    /* Поля занимают всю ширину формы */
+    padding: 8px;
+    /* Внутренние отступы */
+    margin-bottom: 8px;
+    /* Расстояние между элементами */
+    font-size: 16px;
+    /* Увеличение текста */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: chocolate;
+    /* Цвет кнопки */
+    color: wheat;
+    /* Цвет текста */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+    /* Темнее при наведении */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container section {
+    width: 60%;
+}
